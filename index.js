@@ -67,7 +67,7 @@ function promptUser(){
       
    { 
 
-    type:"input", 
+   type:"input", 
     message: "Any contributions on this project ", 
     name:"contributions"
    }, 

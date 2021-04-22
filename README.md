@@ -1,10 +1,10 @@
  
-# ReadMe Generator
-IBM<br>[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+# **README Generator**MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-Generates a Personal ReadMe Document  
+Personal node.js command-line application for a quick and easy README file to get started.  
 ## Table of contents
-- [ReadMe Generator](#readme-generator)
+- [**README Generator**MIT<br>![License: MIT](https://opensource.org/licenses/MIT)](#readme-generatormit)
   - [Description](#description)
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
@@ -15,20 +15,19 @@ Generates a Personal ReadMe Document
   - [Questions](#questions)
 
 ## Installation
-        node index.js
+        This application requires `inquirer` and `util` node packages installed first. Then run `npm install inquirer` and `npm install util` before execution of `node index.js`
 ## Usage 
-        Personal use 
+        Node.js application can be used by any other user who would like to save time creating a personal README.md file with this baseline that complies with the most used guidelines on making the .md files. Command line prompt will guide the user through a series of questions step buy step to fill the README file, once all questions from the prompt are finished. 
 ## License
-        IBM
-        
+        MIT
+        I have used a mit License for this application, please see repository for documentation [link when pushed]
 ## Contributing
-        Anthony
+        anthony9292
 ## Tests
         
 ## Questions
 For questions regarding this application please contact me at:
-    - E-mail anthon.n24@gmail.com 
-    - Github:
-    <https://github.com/https://github.com/anthony9292>
+    - E-mail anthon.n08@gmail.com 
+    - Github:<https://github.com/anthony9292>
 
     
