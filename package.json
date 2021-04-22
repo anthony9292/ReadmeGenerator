@@ -1,0 +1,23 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "read me generator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony9292/ReadmeGenerator.git"
+  },
+  "author": "Anthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthony9292/ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/anthony9292/ReadmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "util": "^0.12.3"
+  }
+}
