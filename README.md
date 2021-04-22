@@ -6,7 +6,6 @@ MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](ht
 Personal node.js command-line application for a quick and easy README file to get started.  
 
 ## Table of contents
-- [**README Generator**MIT<br>![License: MIT](https://opensource.org/licenses/MIT)](#readme-generatormit)
   - [Description](#description)
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
