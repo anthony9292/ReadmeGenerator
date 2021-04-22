@@ -1,7 +1,7 @@
  
 # **README Generator** 
 MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-MIT <br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 Personal node.js command-line application for a quick and easy README file to get started.  
 
@@ -26,7 +26,7 @@ I have used a mit License for this application, please see repository for docume
 
 ## Contributing
    anthony9292
-   
+
 ## Tests
         
 ## Questions
