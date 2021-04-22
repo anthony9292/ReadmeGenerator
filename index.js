@@ -8,42 +8,29 @@ const writeFileAsync=util.promisify(fs.writeFile);
 function promptUser(){ 
     return inquirer.prompt([
 { 
-
  type:"input", 
  message: "Whats you're Subject or Title ", 
  name:"title"
-
-
 }, 
 { 
-
     type:"input", 
     message: "Tell me what's your document about ", 
     name:"description"
-   
-   
-   }, 
+     }, 
    
    { 
-
     type:"input", 
     message: "Please provide installation instructions: ", 
     name:"install"
-   
-   
    }, 
    
    { 
-
     type:"input", 
     message: "How will this be used? ", 
     name:"usage"
-   
-   
    }, 
    
    { 
-
     type:"list", 
     message: "Please select one of these licenses: ", 
     name:"badge", 
@@ -52,56 +39,36 @@ function promptUser(){
         "IBM",
         "MIT", 
         "Perl"
-
-
     ]
-   
-   
    }, 
    { 
-
     type:"input", 
     message: "Please provide a description of the license use:", 
     name:"license"
    }, 
       
    { 
-
    type:"input", 
     message: "Any contributions on this project ", 
     name:"contributions"
    }, 
-   
    { 
-
     type:"input", 
     message: "Please provide test instructions or notes: ", 
     name:"test"
-   
-   
    }, 
-   
    { 
-
     type:"input", 
     message: "Provide our e-mail address: ", 
     name:"Email"
-   
-   
    }, 
-   
    { 
-
     type:"input", 
     message: "Provide your github ID:", 
     name:"github"
-   
-   
    }, 
    ]);
 }
-
-
 function generateMD(answers){
 
     var profile=("https://github.com/"+answers.github)
@@ -145,8 +112,6 @@ For questions regarding this application please contact me at:
                const md=generateMD(answers); 
                await writeFileAsync("README.md",md); 
                console.log("Successfully writing to  README.md !!"); 
-
-
       } catch(err){ 
           console.log(err); 
       }
